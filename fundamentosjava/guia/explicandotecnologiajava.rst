@@ -19,7 +19,7 @@ Este módulo ofrece una visión general de la tecnología Java, de la programaci
 
 Debe calificar su capacidad para llevar a cabo cada uno de los objetivos de este módulo. Una vez que haya finalizado este módulo, usted deberá reevaluar sus capacidades y determinar el aprendizaje adquirido por cada objetivo.
 
-+-------------------------+-----------------------------+
++-------------------------+--------------+--------------+
 | Objetivo del modulo     | Al comenzar  | Al finalizar |
 +-------------------------+--------------+--------------+
 | Describir los conceptos |		 |		|

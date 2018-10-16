@@ -105,7 +105,7 @@ Tips
 
 La figura ilustra la propiedad de distribución de la tecnología Java.
 
-1.5.3 Simpre
+1.5.3 Simple
 ++++++++++++++
 
 El lenguaje de programación Java es simple debido que sus diseñadores quitaron algunas de las construcciones complejas y poco claras que se encuentran en otros lenguajes de programación populares.
@@ -135,6 +135,21 @@ Prohibir a los programas distribuidos, tales como los applets, leer y escribir a
 Verificar que todos los programas basados en tecnología Java contienen código válido.
 Soporta firmas digitales. El código basado en la tecnología Java puede ser "firmado" por una compañía o por una persona de forma tal que otra persona que recibe el código pueda verificar la legitimidad del mismo.
 
+.. figure:: ../images/05.png
 
+La figura ilustra que los programas con tecnología Java son seguros y no permiten que el código no válido sea ejecutado en un computador.
+
+1.5.6 Independiente de Plataforma
++++++++++++++++++++++++++++++++++
+
+Los programas escritos en otros lenguajes requieren generalmente numerosas modificaciones para poder ejecutarse sobre más de un tipo de plataforma (comunicacional). Se entiende por plataforma computacional una combinación de una CPU y un sistema operativo. Esta dependencia de la plataforma se debe a que muchos lenguajes requieren que se escriba código especifico para la plataforma subyacente.
+
+Los lenguajes de programación populares como C y C++ requieren que el programador compile y ensamble sus programas, obteniendo como resultado un programa ejecutable único para una determinada plataforma. A diferencia de C y C++, el lenguaje de programación Java es independiente de la plataforma.
+
+Programas dependientes de la plataforma:
+Un compilador es una aplicación que convierte un programa escrito por un programador, en un código específico para una CPU. A este código se le denomina código de máquina. Estos archivos específicos para cada plataforma (archivos binarios) se combinan frecuentemente con otros archivos, tales como bibliotecas que contienen código previamente escrito, usando un ensamblador para crear un programa dependiente de la plataforma (al que se le denomina ejecutable), y que puede ser ejecutado por un usuario final.
+
+Programas independientes de la plataforma:
+Un programa basado en la tecnología Java puede ejecutar sobre varias combinaciones de CPUs y sistemas operativos diferentes, tales como: Solaris OS sobre un chip SPARC®, MacOS sobre un chip Motorola y Microsoft Windows sobre un chip Intel, generalmente con muy pocas o sin modificaciones Al igual que los programas C y C++, los programas basados en la tecnología Java también son compilados usando un compilador de la tecnología Java. Sin embargo, el formato resultante de un programa basado en la tecnología Java compilado es bytecode de la tecnología Java independiente de la plataforma, en lugar de código de máquina específico para una CPU. Luego que el bytecode es creado, es interpretado (ejecutado) por un intérprete de bytecode denominado la máquina virtual (o MV).
 
 

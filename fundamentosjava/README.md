@@ -1,3 +1,3 @@
 ## Fundamentos Java
 
-* [Explicando la tecnología Java](guia/explicandotecnologiajava.rst) 
+* [1. Explicando la tecnología Java](guia/1explicandotecnologiajava.rst) 

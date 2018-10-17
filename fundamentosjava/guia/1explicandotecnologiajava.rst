@@ -81,11 +81,11 @@ El lenguaje de programación Java es un lenguaje de programación orientado a ob
 
 La POO difiere de la programación procedural en que esta última hace hincapié en la secuencia de los pasos requeridos para resolver un problema, mientras que la POO hace hincapié en la creación y la interacción de los objetos.
 
-.. figure:: ../images/01.png
+.. figure:: ../images/modulo1/01.png
 
 La figura demuestra un Programa Procedural con el foco puesto en una secuencia.
 
-.. figure:: ../images/02.png
+.. figure:: ../images/modulo1/02.png
 
 La figura ilustra un programa orientado a objetos, cuyo foco está puesto en los objetos y la interacción entre ellos.
 
@@ -101,7 +101,7 @@ Adicionalmente, la capacidad de carga dinámica de clases de la tecnología Java
 Tips
 	Los términos "tecnología Java" y "Lenguaje de programación Java" no se refieren al mismo concepto. El termino "tecnología Java" se refiere a la familia de productos Java y el lenguaje de programación es sólo una parte de ella.
 
-.. figure:: ../images/03.png
+.. figure:: ../images/modulo1/03.png
 
 La figura ilustra la propiedad de distribución de la tecnología Java.
 
@@ -121,7 +121,7 @@ Otra característica que hace simple al lenguaje de programación Java es que un
 
 El lenguaje de programación Java ofrece facilidades de multihilo, esto es, realizar varias tareas al mismo tiempo, tales como consultar una base de datos y desplegar una interfaz de usuario. La tecnología multihilo posibilita que un programa basado en la tecnología Java sea muy eficiente en el uso que hace de los recursos del sistema.
 
-.. figure:: ../images/04.png
+.. figure:: ../images/modulo1/04.png
 
 La siguiente figura ilustra por qué el lenguaje de programación Java es Multihilo.
 
@@ -135,7 +135,7 @@ Prohibir a los programas distribuidos, tales como los applets, leer y escribir a
 Verificar que todos los programas basados en tecnología Java contienen código válido.
 Soporta firmas digitales. El código basado en la tecnología Java puede ser "firmado" por una compañía o por una persona de forma tal que otra persona que recibe el código pueda verificar la legitimidad del mismo.
 
-.. figure:: ../images/05.png
+.. figure:: ../images/modulo1/05.png
 
 La figura ilustra que los programas con tecnología Java son seguros y no permiten que el código no válido sea ejecutado en un computador.
 
@@ -151,5 +151,94 @@ Un compilador es una aplicación que convierte un programa escrito por un progra
 
 Programas independientes de la plataforma:
 Un programa basado en la tecnología Java puede ejecutar sobre varias combinaciones de CPUs y sistemas operativos diferentes, tales como: Solaris OS sobre un chip SPARC®, MacOS sobre un chip Motorola y Microsoft Windows sobre un chip Intel, generalmente con muy pocas o sin modificaciones Al igual que los programas C y C++, los programas basados en la tecnología Java también son compilados usando un compilador de la tecnología Java. Sin embargo, el formato resultante de un programa basado en la tecnología Java compilado es bytecode de la tecnología Java independiente de la plataforma, en lugar de código de máquina específico para una CPU. Luego que el bytecode es creado, es interpretado (ejecutado) por un intérprete de bytecode denominado la máquina virtual (o MV).
+
+Una máquina virtual es un programa para una plataforma específica que entiende bytecode independiente de la plataforma y que puede ejecutarlo sobre una plataforma particular.
+
+Por esta razón, el lenguaje de programación Java es frecuentemente referido como un lenguaje interpretado y los programas con tecnología Java son denominados portables o ejecutables sobre cualquier plataforma. Existen varios lenguajes interpretados, como por ejemplo Perl.
+
+Para que los programas con tecnología Java sean independientes de la plataforma, se requiere una máquina virtual, denominada la "Máquina Virtual Java", sobre cada  plataforma donde los programas serán ejecutados. La Máquina Virtual Java es responsable de:
+interpretar el código basado en la tecnología Java,
+cargar las clases Java y ejecutar los programas basados en la tecnología Java.
+Sin embargo, un programa basado de la tecnología Java necesita más que una Máquina Virtual Java para poder ejecutar. Un programa basado en la tecnología Java necesita también un conjunto de bibliotecas de clases Java estándar para la plataforma. Las bibliotecas de clases Java son bibliotecas de código previamente escrito que pueden ser combinadas con el código que usted escriba para crear aplicaciones robustas.
+
+Conjuntamente, el software de la JVM y las bibliotecas de clase Java, son denominados el entorno de ejecución de Java (Java runtime environment JRE). Los entornos de ejecución de Java están disponibles en Sun Microsystems, ahora en Oracle, para muchas de las plataformas más comunes.
+
+La capacidad de los programas basados en la tecnología Java para ejecutar sobre todas las plataformas es central en el lema de Sun Microsystems "Escribir una vez, ejecutar en cualquier lugarTM" ("Write Once, Run AnywhereTM").
+
+.. figure:: ../images/modulo1/06.png
+
+.. figure:: ../images/modulo1/07.png
+
+.. figure:: ../images/modulo1/08.png
+
+Tips
+	Se puede requerir algunas modificaciones para que un programa basado en la tecnología Java sea independiente de la plataforma. Por ejemplo, se podría requerir que los nombres de los directorios utilicen delimitadores apropiados (barra invertida y diagonal) para los sistemas operativos subyacente.
+
+Tips
+	**Sabia usted que** - Una maquina virtual recibe ese nombre debido a que es un componente de software que ejecuta código, una tarea usualmente llevada acabo por la CPU o una "maquina de Hardware".
+
+Tips
+	**Sabia usted que** - La tecnología Java es frecuentemente considerada como una plataforma porque puede realizar todas las tareas de un sistema operativo subyacente y de una CPU. Un prototipo de un computador con una CPU que sólo puede entender bytecode de tecnología Java, fue desarrollado por Sun Microsystems y denominado la estación de trabajo JavaStation.
+
+.. figure:: ../images/modulo1/09.png
+
+.. figure:: ../images/modulo1/10.png
+
+Tips 
+	Los términos "interfaz de programación de aplicación" (application programming interface API) y "biblioteca de clases" pueden ser utilizados indistintamente. También, el termino de API puede referir a una rutina particular dentro de una biblioteca de código.
+
+1.6 Grupos de Productos de la Tecnología Java
++++++++++++++++++++++++++++++++++++++++++++++
+
+Sun Microsystems provee una línea completa de productos de tecnología Java que van desde kits que crean programas basados en la tecnología Java hasta entornos para emular dispositivos electrónicos y móviles (por ejemplo, teléfonos móviles).
+
+1.6.1 Identificación de los Grupos de Productos de la Tecnología Java
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Las tecnologías Java, tales como la Máquina Virtual Java, están incluidas (en diferentes formas) en tres grupos de productos, cada uno de los cuales fue diseñado para satisfacer las necesidades de un mercado objetivo paricular:
+
+JavaTM 2 Platform, Standard Edition (J2SETM) ­ Permite el desarrollo de applets y aplicaciones que ejecutan en el navegador Web y sobre el escritorio del computador, respectivamente. Por ejemplo, usted puede utilizar el J2SE Software Developers Kit (SDK) para crear un programa procesador de palabras para un computador personal.
+
+JavaTM 2 Platform, Enterprise Edition (J2EETM) ­ Permite crear grandes aplicaciones empresariales distribuidas cliente­servidor. Por ejemplo, se puede utilizar el J2EE SDK para crear una aplicación correspondiente al sitio web de una compañía de ventas al por menor, implementando sobre él una tienda virtual (eCommerce o Comercio Electrónico)
+
+JavaTM 2 Platform, Micro Edition (J2METM) ­ Permite crear aplicaciones para dispositivos electrónicos con recursos restringidos. Por ejemplo, usted puede utilizar J2ME SDK para crear un juego que ejecute en un teléfono móvil. 
+
+Entre otras tecnologías Java, cada edición incluye un kit de desarrollo de software (SDK) que permite a los programadores crear, compilar y ejecutar sus programas basados en la tecnología Java sobre una plataforma particular.
+
+Tips
+	Los applets y las aplicaciones difieren en varios aspectos. En primer lugar, los applets ejecutan en un navegador web mientras que las aplicaciones son ejecutadas dentro de un sistema operativo. Mientras que este curso se focaliza principalmente en el desarrollo de aplicaciones, la mayoría de la información en el curso también puede ser aplicada para el desarrollo de applets.
+
+.. figure:: ../images/modulo1/11.png
+
+
+1.6.2 Selección del Grupo de Productos de la Tecnología Java Correctos
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Mientras que muchos programadores Java se especializan en el desarrollo de aplicaciones para un mercado objetivo particular, los programadores generalmente comienzan sus carreras creando aplicaciones y applets para computadores personales. 
+
+Por lo tanto, el kit J2SE SDK es el grupo de productos más usado por los programadores mientras aprenden el lenguaje de programación JavaTM.
+
+1.6.3 Uso de los componentes del SDK de la Plataforma Java 2, Standard Edition
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Sun Microsystems ha desarrollado una versión del SDK para la Plataforma Java 2, Standard Edition para: 
+
+el sistema operativo Solaris OS sobre el chip SPARC (32 bits),
+el sistema operativo Microsoft Windows sobre el chip Intel (32 bits),
+el sistema operativo Linux sobre el chip Intel y
+el sistema operativo Solaris OS sobre el chip SPARC (64©\bits).
+
+El SDK para la Plataforma Java 2, Standard Edition incluye:
+El entorno de ejecución de Java:
+­Una Máquina Virtual Java para la plataforma que usted seleccione.
+­Las bibliotecas de clases Java para la plataforma que usted seleccione.
+Un compilador Java.
+Documentación de la biblioteca de clases Java (API) (como un archivo para ser descargado en forma independiente).
+Utilidades adicionales, tales como programas para crear archivos JAR (Java archive) y para depurar programas basados en la tecnología Java.
+Ejemplos de programas basados en la tecnología Java.
+
+Durante la demostración, usted debería poner especial atención a:
+Cómo se ejecutan el applet y la aplicación (si la ejecución se realiza a través del ingreso de comandos, haciendo clic sobre un ícono, etc.)
+Desde dónde se ejecutan el applet o la aplicación (si es dentro de un navegador Web, un dispositivo de consumidor, etc.)
 
 

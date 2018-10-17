@@ -167,7 +167,9 @@ La capacidad de los programas basados en la tecnología Java para ejecutar sobre
 
 .. figure:: ../images/modulo1/06.png
 
+
 .. figure:: ../images/modulo1/07.png
+
 
 .. figure:: ../images/modulo1/08.png
 
